@@ -7,8 +7,8 @@ from transformers import pipeline
 import os
 import torch
 
-hf_token = "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"
-lang_token = "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"
+hf_token = "Input hugging face token to be able to download the model"
+lang_token = "Input access token from your langchain account to monitor our application"
 ## Langmith tracking
 os.environ["LANGCHAIN_PROJECT"]="Dummy_Project"
 os.environ["LANGCHAIN_TRACING_V2"]="true"
